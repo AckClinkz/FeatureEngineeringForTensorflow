@@ -1,4 +1,4 @@
-# FeaturePrejectForTensorflow
+# FeatureEngineeringForTensorflow
 
 It is different from research that there is volumes of data in production environment. Compared to single machine, `Spark` can work fine in this situation. At the same time, `Tensorflow` is an efficient tool to explore big data capability. This project is an example how to preprocess data using Spark and transform to `TFRecord`.
 
