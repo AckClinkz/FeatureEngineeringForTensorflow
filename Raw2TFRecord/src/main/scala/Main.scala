@@ -1,4 +1,4 @@
-package com.sina.yewen1.RawFeature2TFRecord.SingleCategoryFeature
+package com.RawFeature2TFRecord.SingleCategoryFeature
 
 import org.apache.spark.sql.SparkSession
 
