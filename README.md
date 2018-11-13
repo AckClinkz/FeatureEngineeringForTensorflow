@@ -22,8 +22,8 @@ spark-submit --class com.RawFeature2TFRecord.SingleCategoryFeature.Main \
  --files $YOUR_SPARK_DIR/conf/hive-site.xml \
  ./Raw2TFRecord/target/scala-2.11/Raw2TFRecord-assembly-0.1-SNAPSHOT.jar \
  --htable_raw_feature $YOUR_HIVE_TABLE_FEATURE \
- --htable_fea_cls $YOU_HIVE_TABLE_FEATURE_CLSS \
- --hdfs_tfrecord $YOU_HDFS_TFRECORD
+ --htable_fea_cls $YOUR_HIVE_TABLE_FEATURE_CLSS \
+ --hdfs_tfrecord $YOUR_HDFS_TFRECORD
 ```
 
 ## TABLE FORMAT
